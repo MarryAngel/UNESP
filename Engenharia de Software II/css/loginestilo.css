@@ -1,0 +1,249 @@
+body{
+    font-family: 'Poppins', arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagens/fundo4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.header-top{
+    height: 110px;
+    background: #BF5690;
+    position: relative;
+}
+
+.logotipo{
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.header-nav{
+    position: absolute;
+    top: 32px;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 13px;
+}
+
+.header-nav a{
+    color: #F2F2F2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear;
+}
+
+.header-nav a:hover{
+    color: plum;
+}
+
+.footer-nav ul{
+    margin: 0;
+    padding: 0;    
+}
+
+.footer-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 100px 0 40px;
+    padding: 13px;
+}
+
+.footer-nav a{
+   color: #F2F2F2;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 12px;
+   letter-spacing: 5px;
+   transition: color 0.3s linear; 
+}
+
+.footer-nav a:hover{
+    color: Violet;
+}
+
+
+.about{
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.about p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+
+#contact{
+    margin: 50px 0;
+}
+
+#contact address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.maps iframe{
+    width: 100%;
+}
+
+footer{
+    background: #593448;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8597;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.img_fundo{
+    margin-top: 0px;
+    width: 100%;
+    position: center;
+}
+    
+/* Login */
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    margin-top: 10px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 55%;
+    height: 400px;
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.login .header{
+    background-color: #eee;
+    padding: 20px;
+    height: 30px;
+}
+
+.login .header h2{
+    margin: 10px;
+}
+
+.form{
+    padding: 20px;
+}
+
+.form-control{
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label{
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.form-control input {
+    border: 29x solid 0 0 0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control i{
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button{
+    background-color: #fc00ff;
+    border: 2px solid #fc00ff;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Error e Success */
+.form-control.success input{
+    border-color: #2ecc71;
+}
+
+.form-control.error input{
+    border-color: #e74c3c;
+}
+
+.form-control.success i.fa-circle-check{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-circle-exclamation{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c; 
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuário a versão do html que deve ser renderizada-->
+
+<html lang="pt-br">
+    <head>
+        <link rel="shortcut icon" href="imagens/bus.png">
+        <title> Meu Ônibus Bauru </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Nicole Barbosa">
+        <meta name="description" content="Lista de documentos (Descrição do conteúdo da página)">
+        <meta name="keywords" content="html5, tecnologia, aprender">
+        
+        <!-- link das fontes que serão usadas -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet" />
+        
+        <link rel="stylesheet" href="css/loginestilo.css">
+        
+    </head>
+    
+    
+        <body>
+            <div id="principal">
+                <header class="header-top">
+                    <a href= "#"><img class="logotipo"src="imagens/logomob3.png" alt="logotipo MOB"></a>
+                    <nav class="header-nav">
+                        <ul>
+                            <li><a href="#">Fazer uma viagem</a></li>
+                            <li><a href="#">Linhas</a></li>
+                            <li><a href="#">Cadastrar</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                
+                <div class="login">
+                    <div class="header"> 
+                        <h2>Login</h2> 
+                    </div>
+            
+                    <form id = "form" class="form"> 
+                
+                    <div class = "form-control" >
+                    <!-- texto dos campos de informações -->
+                        <label for="username">Nome de usuário</label>
+                        <!-- entrada de dados -->
+                        <input type="text" id="username" placeholder="Digite seu nome de usuário..."/> 
+                        <!-- ícones de acerto e erro -->
+                        <i class="fa-solid fa-circle-exclamation"> </i> 
+                        <i class="fa-solid fa-circle-check"> </i>
+                        <!-- mensagem de erro -->
+                        <small> Mensagem de erro</small>
+                    </div>
+
+                    <div class = "form-control" >
+                        <!-- texto dos campos de informações -->
+                        <label for="password">Senha</label>
+                        <!-- entrada de dados -->
+                        <input type="password" id="password" placeholder="Digite sua senha..."/>
+                        <!-- ícones de acerto e erro -->
+                        <i class="fa-solid fa-circle-exclamation"> </i> 
+                        <i class="fa-solid fa-circle-check"> </i>
+                        <!-- mensagem de erro -->
+                        <small> Mensagem de erro</small>
+                    </div>
+
+                    <button type="submit">Entrar</button>
+                    </form>
+                </div>
+                
+                <footer>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="#">Sobre nós</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="#">Parcerias</a></li>
+                        </ul>
+                    </nav>
+                </footer>
+            </div>
+            
+            <!-- permite usar ícones do site fontawesome -->
+            <script src="https://kit.fontawesome.com/035d6058e5.js" crossorigin="anonymous"> </script>
+        
+        
+            <script src="./javascript.js"></script>
+            
+        </body>
+</html>

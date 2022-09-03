@@ -1,0 +1,17 @@
+ROTEIRO PARA A GRAVAÇÃO
+
+------- PRIMEIRA PARTE -> IDEIA DA SOLUÇÂO DO PROJETO ---------
+Bom dia/tarde/noite, o projeto desenvolvido para resolver o problema do tempo de espera no ônibus foi feito usando uma solução web, que é a construção de um web site chamado MOB - "Meu Ônibus Bauru".
+
+A solução para este problema consiste numa construção do site que informe com maior precisão o tempo médio de atraso do ônibus com relação a cada ponto. Para isso será usado confirmações toda vez que um passageiro entrar no ônibus, assim é possível calcular de forma mais precisa o horário estipulado para chegar no próximo ponto.
+
+Para que o usuário se engaje na aplicação e ajude nas informações adicionais que são importantes para o cálculo do tempo de espera foi usada a ideia de bonificação. Toda vez que o usuário faz uma viagem e confirma que o ônibus chegou no ponto, responde os formulários a respeito da situação do onibus e do trânsito local e ajuda os outros usuários com dicas de trajetos e rotas, este usuário recebe pontos que futuramente poderão ser trocados em descontos em lojas dos anunciantes e parceiros do site.
+
+Usando a estratégia de bonificação é possível que o usuário se engaje na aplicação para que haja uma constante resposta e confirmação do tempo de chegada dos ônibus. Além disso, com o chat de conversa é possível um comunicação entre os usuários para que estes formeçam dicas de trajetos mais seguros, econômicos e melhores. A partir disso é possível construir uma aplicação que promove o conforto do usuário, simplificidade no uso.
+
+Para a implementação ficou faltando a parte da responsividade com dispositivos móveis além de adaptar o site para pessoas daltônicas e cegas (ajustar as cores, leitura dos textos e botões). 
+
+--------- SEGUNDA PARTE -> MOSTRAR A PÁGINA DE LOGIN DO SITE ----------
+
+O site desenvolvido começa nesta página de login, onde o usuário (que é a pessoa que deseja consulta o tempo que deve estar no ponto) tem as opções de se cadastrar no sistema para acumular pontos por colaboração, consultar as linhas de ônibus que existem em Bauru e por fim realizar o login na sua conta.
+ 
